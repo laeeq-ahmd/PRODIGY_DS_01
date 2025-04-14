@@ -1,7 +1,13 @@
 # Project Dependencies for Population Data Analysis
+
 # Data manipulation
 pandas==2.2.2
 
 # Plotting and visualization
 matplotlib==3.8.4
-#make sure you're using the provided dataset otherwise data_processor.py data_visualizer.py should be modified accordingly
+
+# Note:
+# Make sure you're using the provided dataset (population.csv).
+# If using a different dataset, modify data_processor.py and data_visualizer.py accordingly.
+# After installation, run `pip show <package>` to verify installed versions.
+
