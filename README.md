@@ -23,6 +23,12 @@ This project loads population data from a CSV file, processes it to group age an
 ```
 pip install matplotlib pandas
 ```
+Another way to install libraries (Make sure you have requirements.txt in that dict)
+```
+pip install -r "requirements.txt"
+```
+
+
 Run the project
 Execute the main script:
 python main.py
