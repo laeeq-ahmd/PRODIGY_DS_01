@@ -21,7 +21,7 @@ This project loads population data from a CSV file, processes it to group age an
    Create a virtual environment (optional) and install the required libraries:
 
 ```
-pip install matplotlib pandas
+pip install matplotlib pandas seaborn
 ```
 Another way to install libraries (Make sure you have requirements.txt in that dict)
 ```
