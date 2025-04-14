@@ -13,7 +13,7 @@ def main():
 
     #visualize data
     dv.plot_pop(pd)
-
+    dv.plot_scatter(pd)
 
 if __name__ == "__main__":
     main()
