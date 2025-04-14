@@ -25,3 +25,14 @@ def plot_pop(grouped):
     plt.tight_layout()
     plt.show()
 
+def plot_scatter(data):
+    plt.figure(figsize=(10, 6))
+    sns.scatterplot(data=data, x="Age_Group", y="Value", hue="Gender", s=100, palette="Set1")
+    plt.xticks(rotation=45)
+    plt.title("Population by Age Group and Gender (Scatter Plot)")
+    plt.xlabel("Age Group")
+    plt.ylabel("Population")
+    plt.grid(True, linestyle="--", alpha=0.5)
+    plt.tight_layout()
+    plt.show()
+
