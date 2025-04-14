@@ -42,7 +42,9 @@ Age ranges and filtering logic are customizable in data_processor.py.
 pandas: For data manipulation
 
 matplotlib: For plotting the pyramid
+
 # Dataset
+Make sure the dataset is in the same directory
 ```
 https://drive.google.com/file/d/1HWriLEmT-iSWcWRcEW1RYFGOFk21KKcp/view?usp=drive_link
 ```
